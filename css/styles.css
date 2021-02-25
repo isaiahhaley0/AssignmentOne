@@ -1,0 +1,241 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+  }
+
+
+
+
+  .hdiv{
+    
+   
+    transition: width 2s;
+    overflow: auto;
+}
+.hdiv:hover{
+    width: 300px;
+}
+
+textarea {
+  resize: both;
+  overflow: auto;
+}
+
+
+
+
+
+
+
+
+
+ul.reccomendedusr{
+    list-style-type: circle;
+    border-color: gold;
+    font-family: fantasy;
+    padding: auto;
+}
+li.usr{
+ 
+    text-align: center;
+    padding: 2px;
+    margin-right: 10%;
+    border-radius: 10px;
+    border: 2px solid gold;
+    width: 75%;
+    float: right;
+    overflow: hidden;
+white-space: nowrap;
+}
+.form input {
+    padding: 20px;
+    width: 500px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(29 161 242);
+    outline-style: none;
+    padding-bottom: 10px;
+  
+  }
+li.topic{
+  text-align: center;
+    padding: 2px;
+    margin-right: 10%;
+    border-radius: 10px;
+    border: 2px solid purple;
+    width: 75%;
+    float: right;
+    overflow: hidden;
+white-space: nowrap;
+}
+  a.buttonlink:link, a.buttonlink:visited {
+    background-color: lightcoral;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a.buttonlink:hover, a.buttonlink:active {
+    background-color: lightcoral;
+  }
+#explore{
+    position: relative;
+    float:right  ;
+    max-width: 18%;
+    min-width: auto;
+    padding: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+
+#trendbox{
+     padding: 5px;
+     margin: 5px;
+     border: 2px solid blue;
+     position: relative;
+    float:right  ;
+    border-radius: 5px;
+    padding-right: 7.5%;
+    width: 85%;
+}
+#newpost{
+    text-align: center;
+    width: 45%;
+ 
+    margin-left: 22.5%;
+    position: relative;
+ 
+    padding: 10px;
+    border: 2px solid lightblue;
+    border-radius: 30px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: white;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    background-color: lightcoral;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  /* Change the link color on hover */
+  li a:hover {
+    background-color: black;
+    color: white;
+  }
+  #titlebox{
+    font-size: large;
+  }
+textarea.postbody{
+    columns: auto;
+    
+}
+#feed{
+    width: auto;
+    padding: 10px;
+    background-color: lightblue;
+}
+#post{
+    border-radius: 5px;
+    border:2px solid lightcoral;
+    padding: 5px;
+    text-align: center;
+    width: 45%;
+    margin-left: 22.5%;
+    position: relative;
+}
+
+#profile_pic{
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+
+.post_title{
+    font-size: 16px;
+    font-family: sans-serif;
+    border: 2px solid white;
+    text-align: center;
+    padding: 8px;
+    height: 40px;
+}
+.post_content{
+    font-size: 16px;
+    font-family: sans-serif;
+    border: 2px solid white;
+    text-align: center;
+    padding: 8px;
+    height: auto;
+}
+.navbar{
+    position: relative;
+    float:left  ;
+    width: 18%;
+    padding: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.navelement{
+    width: auto;
+    padding: 5px;
+    font-size: 16px;
+    font-family: sans-serif;
+    border: 2px solid white;
+}
+
+.header{
+    height: 74px;
+    font-size: 74px;
+}
+.logo{
+    float : left;
+}
+#footer
+{
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
+.rightaside {
+    float: right;
+    width: auto;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+  }
+
+  .leftaside {
+    float: left;
+    width: auto;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+  }
+
+ .sidebarheader{
+    border-radius: 5px;
+    background-color: black;
+    color:white;
+    padding: 5px;
+ }
