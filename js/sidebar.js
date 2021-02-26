@@ -1,8 +1,7 @@
 function closebar(id) {
     document.getElementById(id).style.width = 0;
     document.getElementsByClassName(id).style.display="none";
-    
-    document.getElementsByClassName(id).style.color="#000";
+   
     document.getElementsById("main").style.marginLeft=0;
 
   }

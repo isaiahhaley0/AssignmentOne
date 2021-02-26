@@ -15,13 +15,18 @@
     transition: 0.3s;
   }
 
- 
+ .openbtn{
+     background-color: lightcoral;
+    color: black;
+    right: 10px;
+    border-radius: 25%;
+ }
 
   .navbar .closebtn {
     position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+    color: black;
+    right: 10px;
+    border-radius: 25%;
+    
   }
   
