@@ -6,6 +6,8 @@
 
         <title>Homepage</title>
         <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/sidebars.css">
+        <script type = "text/javascript" src="js/sidebar.js"></script>
     </head>
     <header>
         <div class="content">
@@ -14,16 +16,25 @@
         </div>
         
     </header>
+
+
+    <div class="navbar" id="sidebar" >
+        <ul>
+            <li><a href="sign_in.html">Login</a></li>
+            <li><a href="myprofile.html">My Profile</a></li>
+            <li><a href="messages.html">messages</a></li>
+            <li><a href="search.html">search</a></li>
+            <li><button id="closebutton" onclick="closebar('sidebar')">close</button>
+                <li><button id="openbutton" onclick="openbar('sidebar')">open</button>
+          </ul> 
+    </div>
+
+
+
+
     <body>
         
-        <div class="navbar">
-            <ul>
-                <li><a href="sign_in.html">Login</a></li>
-                <li><a href="myprofile.html">My Profile</a></li>
-                <li><a href="messages.html">messages</a></li>
-                <li><a href="search.html">search</a></li>
-              </ul> 
-        </div>
+        
         <span id="explore">
             <div id="trendbox">
                 <legend>Explore Vibez</legend>
@@ -82,7 +93,8 @@
                                              Now addicted to buzzfed quizes</p></a>
                     </li>
                     <li class="topic hdiv">
-                        <a href="profiles/temp_7.html" id = "topiclink" class="betterlink">Dog Refuses to eat breakfast, will eat goose poop</a>
+                        <a href="profiles/temp_7.html" id = "topiclink" class="betterlink"><p>Dog Refuses to eat breakfast,<br>
+                            will eat used tissue</p></a>
                     </li>
                     <li class="topic hdiv">
                         <a href="profiles/temp_7.html" id = "topiclink" class="betterlink">National Parks: America's Best Ideo</a>
