@@ -176,7 +176,7 @@ ul {
     padding: 10px;
     background-color: lightblue;
 }
-#post{
+.post{
     border-radius: 5px;
     border:2px solid lightcoral;
     padding: 5px;
