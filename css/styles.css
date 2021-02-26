@@ -133,7 +133,10 @@ ul {
  
     background-color: white;
   }
-  
+  .intitle{
+    border:0px;
+    border-bottom: 1px solid blue;
+  }
   li a {
     display: block;
     color: black;
