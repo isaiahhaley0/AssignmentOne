@@ -133,6 +133,11 @@ ul {
  
     background-color: white;
   }
+  #postbutton{
+    background-color: lightblue;
+    color:black;
+    border-radius: 25%;
+  }
   .intitle{
     border:0px;
     border-bottom: 1px solid blue;
