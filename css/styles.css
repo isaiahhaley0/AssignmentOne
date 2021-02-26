@@ -10,12 +10,13 @@
 
   .hdiv{
     
-   
-    transition: width 2s;
-    overflow: auto;
+ 
+    transition: all 2s;
+    
 }
 .hdiv:hover{
     width: 150%;
+    height: 100px;
 }
 
 textarea {
@@ -23,7 +24,7 @@ textarea {
   overflow: auto;
 }
 
-#userlink{
+.betterlink{
   margin: 0%;
     padding: 0%;
     width: auto;
@@ -70,11 +71,11 @@ white-space: nowrap;
   }
 li.topic{
   text-align: center;
-    padding: 2px;
-    margin-right: 10%;
+     
+    margin: auto;
     border-radius: 10px;
     border: 2px solid purple;
-    width: 75%;
+    width: 100%;
     float: right;
     overflow: hidden;
 white-space: nowrap;
@@ -153,7 +154,7 @@ ul {
     font-size: large;
   }
 #postbody{
-  border: 1px solid #75d24b;
+  border-bottom: 1px solid #75d24b;
   border-radius: 5%;
 }
 #feed{
