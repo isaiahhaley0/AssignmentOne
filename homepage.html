@@ -7,26 +7,17 @@
         <title>Homepage</title>
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/sidebars.css">
-        <script type = "text/javascript" src="js/sidebar.js"></script>
+        <script src="js/sidebar.js"></script>
     </head>
     <header>
         <div class="content">
-            <img src="logos/vibez_logo.png" class="logo" width="71px" height="73px" alt="logo">
+            <img src="logos/vibez_logo.png" class="logo" width="71 px" height="73 px" alt="logo">
             <h1 class="header">Vibez</h1>
         </div>
         
     </header>
 
-    <div><button class="openbtn" id="openbutton" onclick="openbar('sidebar')">open</button></div>
-    <div class="navbar" id="sidebar" >
-        <a href="sign_in.html">Login</a></li>
-        <a href="myprofile.html">My Profile</a></li>
-        <a href="messages.html">messages</a></li>
-             <a href="search.html">search</a></li>
-             <div>
-          <button id="closebutton" class = " closebtn" onclick="closebar('sidebar')">close</button></li>
-        </div>
-    </div>
+    
        
        
 
@@ -34,7 +25,16 @@
 
     <body>
         
-        
+        <div><button class="openbtn" id="openbutton" onclick="openbar('sidebar')">open</button></div>
+        <div class="navbar" id="sidebar" >
+            <a href="sign_in.html">Login</a> 
+            <a href="myprofile.html">My Profile</a> 
+            <a href="messages.html">messages</a> 
+                <a href="search.html">search</a> 
+                <div>
+            <button id="closebutton" class = " closebtn" onclick="closebar('sidebar')">close</button></li>
+            </div>
+        </div>
         <span id="explore">
             <div id="trendbox">
                 <legend>Trending People </legend>
