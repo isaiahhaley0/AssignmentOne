@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     background-color: black;
+    color:white;
   }
 
 
@@ -14,7 +15,7 @@
     overflow: auto;
 }
 .hdiv:hover{
-    width: 300px;
+    width: 150%;
 }
 
 textarea {
@@ -22,7 +23,16 @@ textarea {
   overflow: auto;
 }
 
-
+#userlink{
+  margin: 0%;
+    padding: 0%;
+    width: auto;
+    border:transparent;
+    background-color: black;
+    color:white;
+    overflow: hidden;
+white-space: nowrap;
+}
 
 
 
@@ -39,11 +49,11 @@ ul.reccomendedusr{
 li.usr{
  
     text-align: center;
-    padding: 2px;
-    margin-right: 10%;
+   
+    margin: auto;
     border-radius: 10px;
     border: 2px solid gold;
-    width: 75%;
+    width: 100%;
     float: right;
     overflow: hidden;
 white-space: nowrap;
@@ -101,7 +111,7 @@ white-space: nowrap;
      position: relative;
     float:right  ;
     border-radius: 5px;
-    padding-right: 7.5%;
+    padding-right: 2%;
     width: 85%;
 }
 #newpost{
@@ -142,9 +152,9 @@ ul {
   #titlebox{
     font-size: large;
   }
-textarea.postbody{
-    columns: auto;
-    
+#postbody{
+  border: 1px solid #75d24b;
+  border-radius: 5%;
 }
 #feed{
     width: auto;
@@ -186,7 +196,8 @@ textarea.postbody{
 .navbar{
     position: relative;
     float:left  ;
-    width: 18%;
+    max-width: auto;
+
     padding: 5px;
     font-size: 18px;
     font-family: sans-serif;
@@ -195,7 +206,8 @@ textarea.postbody{
 }
 
 .navelement{
-    width: auto;
+    max-width: auto;
+    min-width: 10px;
     padding: 5px;
     font-size: 16px;
     font-family: sans-serif;
@@ -205,6 +217,7 @@ textarea.postbody{
 .header{
     height: 74px;
     font-size: 74px;
+    font-family: sans-serif;
 }
 .logo{
     float : left;

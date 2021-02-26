@@ -6,14 +6,14 @@
     </head>
     <header>
         <div class="content">
-            <img src="vibez_logo.png" class="logo" width="71px" height="73px" alt="logo">
+            <img src="logos/vibez_logo.png" class="logo" width="71px" height="73px" alt="logo">
             <h1 class="header">Vibez</h1>
         </div>
         
     </header>
     <body>
         
-        <div class="navbar">vibez navbar
+        <div class="navbar">
             <ul>
                 <li><a href="sign_in.html">Login</a></li>
                 <li><a href="myprofile.html">My Profile</a></li>
@@ -26,16 +26,34 @@
                 <legend>Explore Vibez</legend>
                 <ul class="reccomendedusr">
                     <li class="usr hdiv">
-                        Reccomended User 1
+                        <a href="profiles/temp_1.html" id = "userlink"> Darth Vader</a>
                     </li>
                     <li class="usr hdiv">
-                        Reccomended User 2
+                        <a href="profiles/temp_2.html" id = "userlink"> Nikola Jokic</a>
                     </li>
                     <li class="usr hdiv">
-                        Reccomended User 3
+                        <a href="profiles/temp_3.html" id = "userlink">Stephen Hawking</a>
                     </li>
                     <li class="usr hdiv">
-                        Reccomended User 4
+                        <a href="profiles/temp_4.html" id = "userlink">Alan Turing</a>
+                    </li>
+                    <li class="usr hdiv">
+                        <a href="profiles/temp_5.html" id = "userlink">Ada Lovelace</a>
+                    </li>
+                    <li class="usr hdiv">
+                        <a href="profiles/temp_6.html" id = "userlink">Isaac Asimov</a>
+                    </li>
+                    <li class="usr hdiv">
+                        <a href="profiles/temp_7.html" id = "userlink">Hari Seldon</a>
+                    </li>
+                    <li class="usr hdiv">
+                        <a href="profiles/temp_8.html" id = "userlink">Luke Skywalker</a>
+                    </li>
+                    <li class="usr hdiv">
+                        <a href="profiles/temp_9.html" id = "userlink">Von Miller</a>
+                    </li>
+                    <li class="usr hdiv">
+                        <a href="profiles/temp_7.html" id = "userlink">Hari Seldon</a>
                     </li>
                 </ul>
 
@@ -67,9 +85,11 @@
                     <label for="title">Post Title</label> 
                     <input type="text" id="title" name="title"><br>
                     <label for="postbody">Content:</label>
-                    <textarea id="postbox" name="postbody" rows="4" cols="50">
-                       post some good vibez
-                        </textarea>
+                    <div class="input" role="textbox" 
+                        contenteditable id="postbody">
+                            Input Some Good Vibez Here
+                    </div>
+                        
                     <button>
                         Post
                     </button>
@@ -80,7 +100,7 @@
             
            
                 <div class="post_title">
-                    <img src="vibez_logo.png" id="profile_pic">
+                    <img src="logos/vibez_logo.png" id="profile_pic">
                     Welcome To Vibez
                     <br>
                     Vibez Staff
@@ -133,7 +153,7 @@
             
            
             <div class="post_title">
-                <img src="vibez_logo.png" id="profile_pic">
+                <img src="logos/vibez_logo.png" id="profile_pic">
                 What to do?
                 <br>
                 post author
@@ -151,7 +171,7 @@
             
            
                 <div class="post_title">
-                    <img src="profile_pics/Montoya.png" id="profile_pic">
+                    <img src="profile_pics/montoya.png" id="profile_pic">
                     To A Certain Count
                     <br>
                     Inigo Montoya
