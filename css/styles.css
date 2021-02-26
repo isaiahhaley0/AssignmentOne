@@ -186,7 +186,7 @@ ul {
     position: relative;
 }
 
-#profile_pic{
+.profile_pic{
     width: 35px;
     height: 35px;
     float: left;
