@@ -2,12 +2,11 @@
 <html lang="en">
     <head>
         
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
         <title>Homepage</title>
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/sidebars.css">
         <script src="js/sidebar.js"></script>
+        
     </head>
    
 
@@ -22,10 +21,7 @@
             <div class="content">
                 <img src="logos/vibez_logo.png" class="logo" width="71" height="73" alt="logo">
                 <h1 class="header">Vibez</h1>
-            </div>
-            
-        </header>
-        <div><button class="openbtn" id="openbutton" onclick="openbar('sidebar')">open</button></div>
+                <div><button class="openbtn hidden" id="openbutton" onclick="openbar('sidebar')">open</button></div>
         <div class="navbar" id="sidebar" >
             <a href="sign_in.html">Login</a> 
             <a href="myprofile.html">My Profile</a> 
@@ -35,6 +31,11 @@
             <button id="closebutton" class = " closebtn" onclick="closebar('sidebar')">close</button> 
             </div>
         </div>
+                
+            </div>
+            
+        </header>
+        
         <div id="explore">
             <div class="trendbox">
                 <div>Trending People </div>
@@ -112,7 +113,7 @@
             </div>
         </div>
         
-        <div class="feed">
+        <div class="feed column">
             <div id ="newpost">
                 New post
                 
