@@ -141,3 +141,7 @@ button.social{
 .google{
     background: #dd4b39;
 }
+
+.hasError {
+    background-color: yellow;
+}
