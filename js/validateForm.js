@@ -1,12 +1,13 @@
 function checkPassword(form) {
     password1 = form.password1.value;
     password2 = form.password2.value;
-    
+
 
 
     //if password not entered at all 
     if (password1 == '') {
         alert("Please enter a password");
+        return false;
 
     }
     re = /^.*?(?=[\^#%&$\*:<>\?/\{\|\}]).*$/;
@@ -39,17 +40,21 @@ function checkPassword(form) {
     }
     //if secondary password not entered
     else if (password2 == '') {
-            alert("Please confirm password");
-        }
-        //if not the same return error 
-        else if (password1 != password2) {
-            alert("Error: Passwords do not match. Please try re-entering passwords");
-            return false;
-        }
-        //if they are the same allow passwords
-        else {
-            alert("Thank you for signing up for Vibez.")
-            return true;
-        }
-
+        alert("Please confirm password");
+        return false;
     }
+    //if not the same return error 
+    else if (password1 != password2) {
+        alert("Error: Passwords do not match. Please try re-entering passwords");
+        return false;
+    }
+    //if they are the same allow passwords
+    else {
+        // alert("Thank you for signing up for Vibez.")
+        return true;
+    }
+
+}
+
+
+
