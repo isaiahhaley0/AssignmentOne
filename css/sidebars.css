@@ -15,6 +15,10 @@
     transition: 0.3s;
   }
 
+.hidden{
+  display: none;
+}
+
  .openbtn{
      background-color: lightcoral;
     color: black;
