@@ -1,9 +1,8 @@
 function closebar(id) {
-    document.getElementById(id).style.width = 0;
-    document.getElementsByClassName(id).style.display="none";
-   
-    document.getElementsById("main").style.marginLeft=0;
-
+    document.getElementById('sidebar').classList.add('hidden')
+    document.getElementById('openbutton').classList.remove('hidden')
+    document.getElementById('closebutton').classList.add('hidden')
+    ocument.getElementById('feed').classList.add('left')
   }
   function closeright(id) {
     document.getElementById(id).style.width = 0;
@@ -12,6 +11,8 @@ function closebar(id) {
   }
 
   function openbar(id) {
-    document.getElementById(id).style.width = "auto";
-    document.getElementsById("main")="auto";
+    document.getElementById('sidebar').classList.remove('hidden')
+    document.getElementById('openbutton').classList.add('hidden')
+    document.getElementById('closebutton').classList.remove('hidden')
+    document.getElementById('feed').classList.remove('left')
   }
