@@ -27,6 +27,6 @@ Languages Used
 
 
 ---
-Authored By: Isaiah Haley, Ethan Walton
-CU Denver
-Web Application Development
+Authored By: Isaiah Haley, Ethan Walton  
+CU Denver  
+Web Application Development  
